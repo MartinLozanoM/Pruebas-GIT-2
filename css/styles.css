@@ -2,7 +2,197 @@
     box-sizing: border-box;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
+    font-family: arial, sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 6vh;
+    background-color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-box {
+    margin: 5px;
+    padding: 5px;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+#gmail {
+    padding-left: 15px;
+    font-size: 13px;
+    color: #212121;
+    cursor: pointer;
+}
+
+#imagenes {
+    padding-left: 15px;
+    font-size: 13px;
+    color: #212121;
+    cursor: pointer;
+}
+
+#app {
+    width: 40px;
+    height: 40px;
+}
+
+#img-app {
+    max-width: 100%;
+    max-height: 100%;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+#iniciar-sesion {
+    margin: 0px 8px;
+    padding: 9px 23px;
+    background-color: #1A73E8;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+main {
+    width: 100%;
+    height: 83vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#logo {
+
+}
+
+#buscador {
+    display: flex;
+    border: 1px solid #202124;
+    border-radius: 24px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#lupa {
+    width: 26px;
+    height: 26px;
+    padding-left: 5px;
+}
+
+#img-lupa {
+    max-width: 100%;
+    max-height: 100%;
+    height: 26px;
+    width: 26px;
+}
+
+#buscar {
+    border: 1px solid transparent;
+    width: 500px;
+}
+
+#micro {
+    width: 26px;
+    height: 26px;
+    padding-right: 5px;
+}
+
+#img-micro {
+    max-width: 100%;
+    max-height: 100%;
+    width: 26px;
+    height: 26px;
+}
+
+#botones {
+    margin-top: 30px;
+}
+
+.input-button {
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    height: 36px;
+    cursor: pointer;
+}
+
+#cambio-idioma {
+    margin-top: 30px;
+}
+
+#idioma {
+    color: #1a0dab;
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    height: 11vh;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+#ayudin {
+    display: flex;
+    align-self: flex-start;
+    padding: 10px;
+    background-color: #F2F2F2;
+    color: #70757a;
+    margin-left: 15px;
+    font-size: 15px;
+    /* No sabia como poner argentina arriba
+    del footer-box1 */
+}
+
+.footer-box1 {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    background-color: #F2F2F2;
+    color: #70757a;
+    font-size: 14px;
+}
+
+.footer-box2 {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 10px;
+    background-color: #F2F2F2;
+    color: #70757a;
+    font-size: 14px;
+}
+
+a:link,a:visited,a:hover,a:active {
+    color: #70757a;
 }
